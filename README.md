@@ -36,7 +36,7 @@ That bears on what the scores above can show. The from-spec discipline in [PARIT
 
 ```
 git clone https://github.com/astrogilda/agent-evidence-vectors
-git -C agent-evidence-vectors checkout 94c163c8e4d9b52a7056c63bc489932329d42a42
+git -C agent-evidence-vectors checkout e98de66d7296c4eb01abc38b6aee0b51b0c87a8e
 cargo run --locked --release -- agent-evidence-vectors/vectors --json fresh.json
 python3 scripts/compare-report.py fresh.json reports/v0.7-rev27-directed-run.json
 ```
